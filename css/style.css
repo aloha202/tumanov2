@@ -270,7 +270,7 @@ div {
    left: 0;
    height: 100%;
    width: 100%;
-   background-image: url(../img/ph1.jpg);
+   background-image: url(../img/slider3.jpg);
    background-size: cover;
    background-position: center center; 
 }
@@ -281,7 +281,7 @@ div {
    left: 0;
    height: 100%;
    width: 100%;
-   background-image: url(../img/ph2.jpg);
+   background-image: url(../img/slider4.jpg);
    background-size: cover;
    background-position: center center;
 }
@@ -292,7 +292,7 @@ div {
    left: 0;
    height: 100%;
    width: 100%;
-   background-image: url(../img/ph3.jpg);
+   background-image: url(../img/slider1.jpg);
    background-size: cover;
    background-position: center center;
 }
@@ -303,7 +303,7 @@ div {
    left: 0;
    height: 100%;
    width: 100%;
-   background-image: url(../img/ph4.jpg);
+   background-image: url(../img/slider2.jpg);
    background-size: cover;
    background-position: center center;
 }
