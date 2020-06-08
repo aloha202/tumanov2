@@ -1014,12 +1014,7 @@ footer .section p {
 
 
 
-
-
 /*    about page styles  end    */
-
-
-
 
 
 
@@ -1076,6 +1071,80 @@ footer .section p {
   transform: scale(1.2);
   opacity: 1;
 }
+
+
+/*    form style    */
+
+section.form-section{
+  background: url(../img/bg_white.jpg);
+  color: #000;
+}
+
+.contact-section{
+  background: url(../img/form-background.jpg) no-repeat center;
+  padding: 40px 0;
+  background-size: cover;
+  margin-top: 8%;
+}
+
+.contact-section h1{
+  text-align: center;
+  color: #fff;
+}
+
+.contact-section p{
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+
+.form-section .contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px 50px 10px;
+  overflow: hidden;
+}
+
+.form-section .contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 1px solid gray;
+  background: #fff;
+  padding: 20px 40px;
+  outline: none;
+  color: #514e4e;
+  transition: 0.5s;
+}
+
+.form-section .contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+
+}
+
+.middle_send .cta-button{
+  padding: 10px 35px;
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.contact-form p{
+  display: none;
+  color: #fff;
+}
+
+
 
 @media(max-width: 1320px){
   .my-slider-container{
