@@ -471,6 +471,29 @@ TweenMax.to(".slider-caption", 1, {autoAlpha:1, delay:1.5});
 
 
 
+$(function(){
+
+$('.contact-form').submit(function(){
+
+var data = $(this).serialize();
+var this_form = $(this);
+
+$.post(this.action, data, function(response){
+  if(response == '1'){
+    this_form.find('.after_form').show();
+  }else{
+    //bad message
+  }
+});
+
+
+
+return false;
+});
+
+});
+
+
 
 
 
